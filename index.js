@@ -1,9 +1,11 @@
 import express from 'express'
 import router from './routes/index.js'
 import db from './config/db.js'
-const app= express();
 
 import dotenv from "dotenv";
+const app= express();
+
+
 dotenv.config({ path: "./variables.env" });
 
 // conectar la base de datos
