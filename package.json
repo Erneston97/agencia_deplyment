@@ -4,8 +4,7 @@
   "description": "Primer Proyecto con Node.js",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js",
-    "start": "node serve"
+    "dev": "nodemon index.js"
   },
   "type": "module",
   "author": "Ernesto Maguina",
@@ -15,8 +14,8 @@
     "mysql2": "^2.2.5",
     "pug": "^3.0.0",
     "sequelize": "^6.4.0",
-    "serve": "^11.3.2"
-    
+    "serve": "^11.3.2",
+    "start": "^5.1.0"
   },
   "devDependencies": {
     "dotenv": "^8.2.0",
